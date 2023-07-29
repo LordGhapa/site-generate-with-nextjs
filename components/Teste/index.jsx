@@ -1,5 +1,5 @@
-import * as Styled from './styles'
-
+import * as Styled from './styles';
+import React from 'react';
 export const Teste = () => {
-  return <Styled.Component>ola</Styled.Component>
-}
+  return <Styled.Component>teste</Styled.Component>;
+};
