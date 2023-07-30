@@ -10,11 +10,11 @@ import config from '../../config';
 function Home({ data }) {
   const { menu, sections, footerHtml, slug,title } = data;
   const { menu_links, text, link, srcImg } = menu;
-  
+
   return (
     <>
       <Head>
-        <title>{title} | {config.siteName}</title>
+        <title>{`${title} | ${config.siteName}`}</title>
       </Head>
       <Base
         links={menu_links}

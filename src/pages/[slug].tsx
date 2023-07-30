@@ -7,7 +7,7 @@ export const getStaticPaths = async () => {
     paths: [
       {
         params: {
-          name: 'pagina2',
+          slug: 'pagina2',
         },
       },
     ],
@@ -16,7 +16,7 @@ export const getStaticPaths = async () => {
 };
 
 export async function getStaticProps() {
-  // const data = await loadPages('&filters[id][$in][0]=19');
+
   let data: any = null;
   try {
     data = await loadPages('&filters[id][$in][0]=20');

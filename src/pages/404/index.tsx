@@ -6,7 +6,7 @@ export default function Custom404() {
   return (
     <>
       <Head>
-        <title>404 | {config.siteName}</title>
+        <title>{`404 | ${config.siteName}`}</title>
       </Head>
       <PageNotFound />
     </>
