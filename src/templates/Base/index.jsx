@@ -8,6 +8,7 @@ export const Base = ({ links = [], logoData, footerHtml, children }) => {
   return (
     <>
       <Menu logoData={logoData} links={links} />
+
       <Styled.Container>
         {children}
         <Footer footerHtml={footerHtml} />

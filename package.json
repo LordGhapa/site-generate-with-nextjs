@@ -9,7 +9,7 @@
     "build-storybook": "storybook build",
     "format": "prettier --write \"src/**/*.{js,jsx,tsx}\""
   },
-  "dependencies": {
+  "dependencies": { 
     "@styled-icons/material-outlined": "^10.47.0",
     "@typescript-eslint/parser": "^6.2.0",
     "next": "latest",
