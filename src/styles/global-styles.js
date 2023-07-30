@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
 *{
@@ -16,7 +16,6 @@ body{
   font-family: ${({ theme }) => theme.font.family.default};
 }
 h1,h2,h3,h4,h5,h6{
-
   margin: ${({ theme }) => theme.spacings.sizes.large} 0;
 }
 p{
@@ -29,4 +28,4 @@ ul,ol{
 a{
   color: ${({ theme }) => theme.colors.secondaryColor};
 }
-`
+`;

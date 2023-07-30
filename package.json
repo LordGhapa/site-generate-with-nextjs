@@ -4,11 +4,14 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "deploy": "next build && next export",
     "story": "storybook dev  -p 6006 ",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "format": "prettier --write \"src/**/*.{js,jsx,tsx}\""
   },
   "dependencies": {
     "@styled-icons/material-outlined": "^10.47.0",
+    "@typescript-eslint/parser": "^6.2.0",
     "next": "latest",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
