@@ -16,7 +16,6 @@ export const getStaticPaths = async () => {
 };
 
 export async function getStaticProps() {
-
   let data: any = null;
   try {
     data = await loadPages('&filters[id][$in][0]=20');
@@ -26,7 +25,6 @@ export async function getStaticProps() {
       notFound: true,
     };
   }
-
   return { props: { data } };
 }
 
