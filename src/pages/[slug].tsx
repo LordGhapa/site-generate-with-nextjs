@@ -1,8 +1,9 @@
 import React from 'react';
 import { loadPages } from '../api/load-page';
-import Home from '../templates/Home';
+import Home, { HomeProps } from '../templates/Home';
+import { GetStaticPaths, GetStaticProps } from 'next';
 
-export const getStaticPaths = async () => {
+export const getStaticPaths: GetStaticPaths = async () => {
   return {
     paths: [
       {
@@ -15,8 +16,8 @@ export const getStaticPaths = async () => {
   };
 };
 
-export async function getStaticProps() {
-  let data: any = null;
+export const getStaticProps: GetStaticProps<HomeProps> = async () => {
+  let data = null;
   try {
     data = await loadPages('&filters[id][$in][0]=20');
   } catch (e) {
@@ -26,8 +27,8 @@ export async function getStaticProps() {
     };
   }
   return { props: { data } };
-}
+};
 
-export default function Index({ data }) {
+export default function Index({ data }: HomeProps) {
   return <Home data={data} />;
 }
