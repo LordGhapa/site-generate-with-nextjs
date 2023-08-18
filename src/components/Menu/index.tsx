@@ -18,12 +18,12 @@ export const Menu = ({ links = [], logoData }: MenuProps) => {
     <>
       <Styled.Button
         onClick={() => setVisible((s) => !s)}
-        aria-label="Open/Close Menu"
+        aria-label="Open/Close-Menu"
       >
         {visible ? (
-          <CloseIcon aria-label="Close Menu" />
+          <CloseIcon aria-label="Close-Menu" />
         ) : (
-          <MenuIcon aria-label="Open Menu" />
+          <MenuIcon aria-label="Open-Menu" />
         )}
       </Styled.Button>
       <Styled.Container visible={visible}>
