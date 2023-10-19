@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Um gerador de site possue apenas componentes e uma ideia basica de ordem todas as informações de texto/imagens/cor de fundo e ordem de seções vem de uma api criada usando o CMS Strapi 
+Um gerador de site possue apenas componentes e uma ideia basica de ordem todas as informações de texto/imagens/cor de fundo e ordem de seções vem de uma api criada usando o CMS Strapi no final gerando uma pagina estática usando o NextJS
 
 - [Acesse o projeto finalizado, online](https://site-generate-with-nextjs.vercel.app/)
 
