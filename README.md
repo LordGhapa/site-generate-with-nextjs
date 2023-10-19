@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Um gerador de site possue apenas componentes e uma ideia basica de ordem todas as informações de texto/imagens/cor de fundo e ordem de seções vem de uma api criada usando o CMS Strapi 
 
-- [Acesse o projeto finalizado, online](https://ia-historietas.vercel.app/)
+- [Acesse o projeto finalizado, online](https://site-generate-with-nextjs.vercel.app/)
 
 
 ## :memo: Licença
